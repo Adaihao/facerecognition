@@ -14,7 +14,7 @@ import java.awt.image.DataBufferByte;
 import java.io.*;
 
 /**
- * @author luoji
+ * @author adaiaho
  * @params
  * @since 2017/11/4 0004
  */
@@ -320,10 +320,10 @@ public class SystemUtil {
     }
 
     public static void main(String[] args) throws Exception {
-        byte[] featureInByteArray = getFaceFeature("C:/Users/luoji/Desktop/5.jpg").toByteArray();
+        byte[] featureInByteArray = getFaceFeature("C:/Users/adaiaho/Desktop/5.jpg").toByteArray();
         AFR_FSDK_FACEMODEL faceFeatureA = AFR_FSDK_FACEMODEL.fromByteArray(featureInByteArray);
         storeFaceFeature(faceFeatureA, "1");
-//        byte[] featureB = FileUtils.toByteArray2("C:/Users/luoji/facerstore/1.data");
+//        byte[] featureB = FileUtils.toByteArray2("C:/Users/adaiaho/facerstore/1.data");
 //        AFR_FSDK_FACEMODEL faceFeatureB = AFR_FSDK_FACEMODEL.fromByteArray(featureB);
 //        FloatByReference fSimilScore = new FloatByReference(0.0f);
 //        NativeLong ret = AFR_FSDKLibrary.INSTANCE.AFR_FSDK_FacePairMatching(PointerEngineUtil.gethFREngineInstance(), faceFeatureA, faceFeatureB, fSimilScore);

@@ -3,8 +3,7 @@ package com.facerecognition.domian;
 import java.io.Serializable;
 
 /**
- * @author luoji
- * @params
+ * @author adaiaho
  * @since 2017/11/4 0004
  */
 public class Recognition implements Serializable {

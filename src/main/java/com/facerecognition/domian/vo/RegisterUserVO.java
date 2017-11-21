@@ -1,7 +1,7 @@
 package com.facerecognition.domian.vo;
 
 /**
- * @author luoji
+ * @author adaiaho
  * @params
  * @since 2017/11/11 0011
  */

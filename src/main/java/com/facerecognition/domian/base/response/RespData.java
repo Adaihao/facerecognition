@@ -64,7 +64,7 @@ public class RespData implements Serializable {
     }
 
 
-    // 2016/10/26 增加返回封装 Add by gaoyanlei
+    // 2016/10/26 增加返回封装 Add by adaiaho
 
     public void setMsg(String msg) {
         this.msg = msg;

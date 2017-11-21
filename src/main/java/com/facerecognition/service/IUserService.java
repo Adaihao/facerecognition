@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * sso用户
  *
- * @author gaoyanlei
+ * @author adaiaho
  * @since 2016/10/25
  */
 public interface IUserService {

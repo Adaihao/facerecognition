@@ -13,7 +13,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 
 /**
- * @author luoji
+ * @author adaiaho
  * @params
  * @since 2017/11/4 0004
  */

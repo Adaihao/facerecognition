@@ -7,7 +7,7 @@ import com.facerecognition.domian.base.response.RespData;
 /**
  * BaseController
  *
- * @author gaoyanlei
+ * @author adaiaho
  * @since 2016/10/26
  */
 public class BaseController {

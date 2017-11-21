@@ -6,8 +6,7 @@ import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 
 /**
- * @author luoji
- * @params
+ * @author adaiaho
  * @since 2017/11/7 0007
  */
 public class FileUtils {

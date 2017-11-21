@@ -9,7 +9,7 @@ import com.sun.jna.Pointer;
 import com.sun.jna.ptr.PointerByReference;
 
 /**
- * @author luoji
+ * @author adaiaho
  * @params
  * @since 2017/11/8 
  */

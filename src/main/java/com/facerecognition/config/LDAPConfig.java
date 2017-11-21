@@ -5,7 +5,6 @@ import org.springframework.context.annotation.PropertySource;
 
 /**
  * @author adaihao
- * @params
  * @since 2017/11/4 0004
  */
 @PropertySource({"classpath:ldap.properties"})

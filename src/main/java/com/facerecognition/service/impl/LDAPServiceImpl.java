@@ -106,7 +106,7 @@ public class LDAPServiceImpl implements ILDAPService {
 //        env.put(Context.SECURITY_AUTHENTICATION, "simple");
 //
 //        String root = "cn=manager,o=tt,c=cn";  //根据自己情况修改
-//        env.put(Context.SECURITY_PRINCIPAL, "gome\\gaoyanlei");   // 管理员
+//        env.put(Context.SECURITY_PRINCIPAL, "gome\\adaiaho");   // 管理员
 //        env.put(Context.SECURITY_CREDENTIALS, "Abcd1236");  // 管理员密码
 //
 //        try {
@@ -127,7 +127,7 @@ public class LDAPServiceImpl implements ILDAPService {
             env.put(Context.INITIAL_CONTEXT_FACTORY, "com.sun.jndi.ldap.LdapCtxFactory");
             env.put(Context.PROVIDER_URL, "ldap://10.128.15.208:389");
             env.put(Context.SECURITY_AUTHENTICATION, "simple");
-            env.put(Context.SECURITY_PRINCIPAL, "GOME\\" + "luoji");
+            env.put(Context.SECURITY_PRINCIPAL, "GOME\\" + "adaiaho");
             env.put(Context.SECURITY_CREDENTIALS, "YYhd234");
             dc = new InitialDirContext(env); // 验证信息
             long end = System.currentTimeMillis();

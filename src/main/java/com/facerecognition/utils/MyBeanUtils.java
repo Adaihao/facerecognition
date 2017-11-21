@@ -15,7 +15,7 @@ import java.util.Map;
 /**
  * bean 帮助类
  *
- * @author gaoyanlei
+ * @author adaiaho
  * @since 2016/11/15
  */
 @SuppressWarnings("unchecked")
