@@ -96,44 +96,7 @@ public class LDAPServiceImpl implements ILDAPService {
     }
 
     public static void main(String[] args) {
-//        String URL = "ldap://10.128.15.208:389";
-//        String BASEDN = "DC=gome,DC=inc";  // 根据自己情况进行修改
-////        Control[] connCtls = null;
-//        LdapContext ctx = null;
-//        Hashtable<String, String> env = new Hashtable<String, String>();
-//        env.put(Context.INITIAL_CONTEXT_FACTORY, "com.sun.jndi.ldap.LdapCtxFactory");
-//        env.put(Context.PROVIDER_URL, URL );
-//        env.put(Context.SECURITY_AUTHENTICATION, "simple");
-//
-//        String root = "cn=manager,o=tt,c=cn";  //根据自己情况修改
-//        env.put(Context.SECURITY_PRINCIPAL, "gome\\adaiaho");   // 管理员
-//        env.put(Context.SECURITY_CREDENTIALS, "Abcd1236");  // 管理员密码
-//
-//        try {
-//            ctx = new InitialLdapContext(env, null);
-//            System.out.println("连接成功");
-//
-//        } catch (javax.naming.AuthenticationException e) {
-//            System.out.println("连接失败：");
-//            e.printStackTrace();
-//        } catch (Exception e) {
-//            System.out.println("连接出错：");
-//            e.printStackTrace();
-//        }
 
-        try {
-            long start = System.currentTimeMillis();
-            Hashtable env = new Hashtable();
-            env.put(Context.INITIAL_CONTEXT_FACTORY, "com.sun.jndi.ldap.LdapCtxFactory");
-            env.put(Context.PROVIDER_URL, "ldap://10.128.15.208:389");
-            env.put(Context.SECURITY_AUTHENTICATION, "simple");
-            env.put(Context.SECURITY_PRINCIPAL, "GOME\\" + "adaiaho");
-            env.put(Context.SECURITY_CREDENTIALS, "YYhd234");
-            dc = new InitialDirContext(env); // 验证信息
-            long end = System.currentTimeMillis();
-        } catch (Exception e) {
-            LOGGER.error("ldap login error. msg={}", e.getMessage());
-        }
     }
 
 
